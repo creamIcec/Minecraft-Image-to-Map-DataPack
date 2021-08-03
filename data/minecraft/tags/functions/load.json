@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values":[
-        "loop:loopatload",
-        "loop:info"
+        "loop:loopatload"
     ]
 }
