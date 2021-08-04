@@ -1,0 +1,1 @@
+setblock ~ ~ ~ minecraft:chest{CustomName:'{"text":"argCtr"}'} keep
