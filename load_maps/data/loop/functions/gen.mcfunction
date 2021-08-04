@@ -1,6 +1,8 @@
 scoreboard players add @e[tag=creator] line 0
 scoreboard players add @e[tag=creator] row 0
-execute unless score @e[tag=creator,limit=1] line matches 0..100 run tellraw @p "§4当前要创建的列数不是正数，请重新放入一定数量的物品。"
+scoreboard objectives add tptimes dummy "tptimes"
+scoreboard players set @e[tag=creator] tptimes 0
+execute unless score @e[tag=creator,limit=1] row matches 0..100 run tellraw @p "§4当前要创建的行数不是正数，请重新放入一定数量的物品或执行loop:getarg。"
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=-45..45] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 0 0
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=45..135] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 90 0
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator, y_rotation=135..180] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 180 0
