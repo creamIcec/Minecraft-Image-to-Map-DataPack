@@ -8,4 +8,4 @@ execute if score @e[tag=creator,limit=1] prerow matches 1..1 run execute at @e[t
 execute if score @e[tag=creator,limit=1] prerow matches 1..1 run scoreboard players remove @e[tag=creator,limit=1] prerow 1
 execute if score @e[tag=creator,limit=1] prerow matches 0..0 run function imgloader:setandsummon
 execute if score @e[tag=creator,limit=1] prerow matches 0..0 run scoreboard objectives remove prerow
-#function imgloader:setwallcondition tellraw @p "§3现在请输入/function gen默认以地图编号为0开始渲染，或输入/function gennotwith0自定义一个地图开始编号。"
+#function imgloader:setwallcondition 
