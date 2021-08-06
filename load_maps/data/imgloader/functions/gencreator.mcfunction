@@ -19,7 +19,7 @@ execute at @e[tag=helper2,limit=1] if entity @e[tag=helper2,y_rotation=45..135] 
 execute at @e[tag=helper2,limit=1] if entity @e[tag=helper2,y_rotation=135..180] align xz run tp @e[tag=helper2] ~0.5 ~ ~0.5 180 0
 execute at @e[tag=helper2,limit=1] if entity @e[tag=helper2,y_rotation=-179.9..-135] align xz run tp @e[tag=helper2] ~0.5 ~ ~0.5 180 0
 execute at @e[tag=helper2,limit=1] if entity @e[tag=helper2,y_rotation=-135..-45] align xz run tp @e[tag=helper2] ~0.5 ~ ~0.5 -90 0
-scoreboard objectives add tptimes dummy "tptimes"
+scoreboard objectives add tptimes trigger "tptimes"
 scoreboard players set @e[tag=creator,limit=1] tptimes 0
 execute at @e[tag=creator] run setblock ^ ^ ^ stone keep
 execute at @e[tag=creator] run setblock ^ ^ ^1 grass_block keep
