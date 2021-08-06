@@ -1,3 +1,4 @@
+tellraw @p "§3当前运行:默认地图起始编号为零模式"
 scoreboard players add @e[tag=creator] line 0
 scoreboard players add @e[tag=creator] row 0
 scoreboard objectives add tptimes dummy "tptimes"
@@ -11,4 +12,4 @@ execute at @e[tag=creator,limit=1] if entity @e[tag=creator, y_rotation=-135..-4
 execute at @e[tag=creator,limit=1] run summon minecraft:armor_stand ^ ^ ^2 {Tags:[poser]}
 execute at @e[tag=creator,limit=1] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 facing entity @e[type=armor_stand,tag=poser,limit=1]
 kill @e[tag=poser]
-function imgloader:setandsummon
+function imgloader:setwallline

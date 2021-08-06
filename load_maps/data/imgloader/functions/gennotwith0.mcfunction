@@ -14,5 +14,5 @@ execute at @e[tag=creator,limit=1] if entity @e[tag=creator, y_rotation=-135..-4
 execute at @e[tag=creator,limit=1] run summon minecraft:armor_stand ^ ^ ^2 {Tags:[poser]}
 execute at @e[tag=creator,limit=1] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 facing entity @e[type=armor_stand,tag=poser,limit=1]
 kill @e[tag=poser]
-execute if score @e[tag=creator,limit=1] tptimes matches 1..10000 run function imgloader:setandsummon
+execute if score @e[tag=creator,limit=1] tptimes matches 1..10000 run function imgloader:setwallline
 execute if score @e[tag=creator,limit=1] tptimes matches 0..0 run tellraw @p "§4请将tptimes赋非0值后再运行。"
