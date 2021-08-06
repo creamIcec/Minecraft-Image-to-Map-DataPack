@@ -8,13 +8,14 @@ scoreboard objectives add row dummy "row"
 scoreboard objectives add fixed_row dummy
 scoreboard objectives add fixed_line dummy
 scoreboard objectives add prerow dummy "prerow"
-scoreboard objectives add tptimes trigger "tptimes"
-scoreboard players set @e[tag=creator,limit=1] tptimes 0
+scoreboard objectives add initial trigger "initial"
+scoreboard players set @e[tag=creator,limit=1] initial 0
 execute store result score @e[tag=creator] line run data get block ~ ~ ~ Items[0].Count
 execute store result score @e[tag=creator] fixed_line run scoreboard players get @e[tag=creator,limit=1] line
 execute store result score @e[tag=creator] prerow run data get block ~ ~ ~ Items[1].Count
 execute store result score @e[tag=creator] row run data get block ~ ~ ~ Items[1].Count
 execute store result score @e[tag=creator] fixed_row run data get block ~ ~ ~ Items[1].Count
 #scoreboard objectives setdisplay sidebar line
-tellraw @p "§3现在请输入/function gen默认以地图编号为0开始渲染，或输入/function gennotwith0自定义一个地图开始编号。"
-tellraw @p "注意:在地图生成前，可随时运行/function imgloader:getarg来修改长和高，只要你站在箱子上即可。"
+tellraw @p {"translate":"§3现在请输入%s默认以地图编号为0开始渲染。","with":[{"text":"/function imgloader:gen","color":"#FF5C38"}],"insertion":"/function imgloader:gen"}
+tellraw @p {"translate":"或输入%s自定义一个地图开始编号。","with":[{"text": "/function imgloader:gennotwith0","color":"#FF5C38"}],"insertion":"/function imgloader:gennotwith0"}
+tellraw @p {"translate":"注意：在生成创建者之后，可随时运行%s,只要站在箱子上即可。","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}

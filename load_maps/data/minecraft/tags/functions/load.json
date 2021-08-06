@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values":[
-        "imgloader:help"
+        "imgloader:load"
     ]
 }
