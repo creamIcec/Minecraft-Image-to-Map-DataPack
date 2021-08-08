@@ -65,9 +65,10 @@ This is ths description of Chinese, for English version please scroll down.
 
 也成功了~
 
-## 提示 
+## 提示  
 
 若不想每次都查看分步教程，可输入/function imgloader:reference查看指令大全。
+
 -----------------------------------------------------------------------------
 # Minecraft Image to Map DataPack
 
