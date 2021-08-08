@@ -10,6 +10,7 @@ scoreboard objectives add fixed_line dummy
 scoreboard objectives add prerow dummy "prerow"
 scoreboard objectives add initial trigger "initial"
 scoreboard players set @e[tag=creator,limit=1] initial 0
+scoreboard players enable @p initial
 execute store result score @e[tag=creator] line run data get block ~ ~ ~ Items[0].Count
 execute store result score @e[tag=creator] fixed_line run scoreboard players get @e[tag=creator,limit=1] line
 execute store result score @e[tag=creator] prerow run data get block ~ ~ ~ Items[1].Count

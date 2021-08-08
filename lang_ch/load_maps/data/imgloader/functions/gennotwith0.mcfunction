@@ -14,6 +14,7 @@ execute at @e[tag=creator,limit=1] if entity @e[tag=creator, y_rotation=-135..-4
 execute at @e[tag=creator,limit=1] run summon minecraft:armor_stand ^ ^ ^2 {Tags:[poser]}
 execute at @e[tag=creator,limit=1] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 facing entity @e[type=armor_stand,tag=poser,limit=1]
 kill @e[tag=poser]
-execute store result score @e[tag=creator,limit=1,sort=nearest] initial run scoreboard players get @p initial
+execute store result score @e[tag=creator,limit=1] initial run scoreboard players get @p initial
+scoreboard players set @p initial 0
 execute if score @e[tag=creator,limit=1] initial matches 1..10000 run function imgloader:setwallline
 execute if score @e[tag=creator,limit=1] initial matches 0..0 run tellraw @p "§4请将initial赋非0值后再运行。"
