@@ -1,0 +1,3 @@
+tellraw @p {"translate": "To start loading image of maps, place the map files in the %s folder","with":[{"text":".minecraft/saves/<name of save>/data","color": "#FF5C38"}]}
+tellraw @p {"translate":"Then run the function %s to generate a 'Map Creator' at your location","with":[{"text": "/function imgloader:gencreator","color": "#FF5C38","underlined": true}],"insertion":"/function imgloader:gencreator"}
+#tellraw @p "输入/trigger ifshowhelp set 0以不再自动显示教程,/trigger ifshowhelp set 1重新激活教程。" 
