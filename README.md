@@ -22,18 +22,18 @@ Note: when converting multiple pictures, be sure to remember the starting number
 ### III. enter the world in which the maps has been generated in (you can first confirm that the maps has been placed in the folder, as shown in the following figure (path: `. Minecraft / saves / < your archive name > / data `)).
 ![ image]( https://user-images.githubusercontent.com/42510470/128627197-5d226d12-3267-4512-adeb-fc8421bdb038.png )
 ### IV. run /reload to load the step-by-step tutorial
-![ image]( https://user-images.githubusercontent.com/42510470/128627652-35984f63-f67f-494d-aab4-40ac67adc7fa.png )
+![image](https://user-images.githubusercontent.com/42510470/128629122-12d25453-f2e2-45d2-bd34-3058e734bb84.png)
 ### V. run /function imgloader: help
 ![ image]( https://user-images.githubusercontent.com/42510470/128627673-a150aab6-7c27-49b0-8b42-8d3d49f95234.png )
 ### Vi. run /function imgloader: gencreator
-![ image]( https://user-images.githubusercontent.com/42510470/128627772-38715776-fe96-400a-866e-9643560488cf.png )
+![image](https://user-images.githubusercontent.com/42510470/128629155-fd49ab78-b4ac-41ba-a1be-78e54b1949fe.png)
 Follow the prompts as you can replace the grass_block with any block.
 
 <b>Note: please find a suitable height to prevent incomplete map generation due to insufficient space</b>
 
 ### VII. Run /function imgloader: genargctr
 
-![ image]( https://user-images.githubusercontent.com/42510470/128627817-eb121ffb-7db1-415d-97ba-7c50f77bb0c6.png )
+![image](https://user-images.githubusercontent.com/42510470/128629168-7fad6ad7-380b-4bbc-a2ac-0de81850b6d8.png)
 ![ image]( https://user-images.githubusercontent.com/42510470/128627851-a0d3ecbb-e425-4e0d-be87-a80d2b81f3a1.png )
 
 ### VIII. Put any items in the two slots of the chest, and the quantity is regarded as length and width respectively.
@@ -44,13 +44,13 @@ Here we use 7:5 as a demonstration.
 
 ### IX. run /function imgloader: getarg
 
-![ image]( https://user-images.githubusercontent.com/42510470/128627903-5adfd9da-0894-49d6-8205-5b371d3bd259.png )
+![image](https://user-images.githubusercontent.com/42510470/128629194-f445fe67-540e-4609-9a41-65c8cee52568.png)
 
 <b>Note: be sure to stand on the chest and run</b>
 
 ### X (1). Run /function imgloader: gen or /function imgloader: gennotwith0. The demonstration starts from zero by default.
 
-![ image]( https://user-images.githubusercontent.com/42510470/128627974-75d874b3-c3b3-47c7-99c7-d9efc7463a34.png )
+![image](https://user-images.githubusercontent.com/42510470/128629256-fd97f960-122a-4178-bee7-987a1524eb4b.png)
 It worked, Enjoy~:D
 
 ### X (2). If you run /function imgloader: gennotwith0, type / trigger initial set < start number of map to be placed > set the starting value before running.
@@ -59,8 +59,7 @@ It worked, Enjoy~:D
 
 <b>Note: in Minecraft, the map number starts with 0 instead of 1</b>
 
-![ image]( https://user-images.githubusercontent.com/42510470/128628040-09668c20-7edd-423b-9615-5756a26db442.png )
-![ image]( https://user-images.githubusercontent.com/42510470/128628005-edf9e60b-7b2c-40ad-84e7-3b8806db2b0b.png )
+![image](https://user-images.githubusercontent.com/42510470/128629319-5cfd62f9-d432-4a3d-a3a5-0682c9a6de8d.png)
 
 ### Xi. Run again /function imgloader: gennotwith0
 
