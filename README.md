@@ -1,4 +1,5 @@
 # Minecraft Image to Map DataPack
+这是英文版说明，中文版请滚动到页面下方。
 This is a project for auto load maps into world created by third-party software which is used to turn images into Minecraft maps.  
 
 However, it can only put already generated maps into world. But good news is that you don't need to place each map one by one into world.
