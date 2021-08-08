@@ -1,3 +1,5 @@
-/load_maps/data/test
+lang_ch/load_maps/data/test
+lang_ch/load_maps/data/temp
+lang_en/load_maps/data/test
+lang_en/load_maps/data/temp
 *.zip
-/load_maps/data/temp

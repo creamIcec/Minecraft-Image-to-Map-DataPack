@@ -1,6 +1,6 @@
 {
     "pack": {
-      "pack_format": 6,
+      "pack_format":  6,
       "description": "Automatically load the converted maps from images into the world."
     }
   }
