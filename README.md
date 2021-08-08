@@ -89,7 +89,7 @@ Note: when converting multiple pictures, be sure to remember the starting number
 
 ## How to use
 
-### I. unzip this packet.
+### I. unzip this datapack.
 
 ### II. Create a new world, select 'datapacks..' and drag this datapack into the window; To load into the existing world, directly drag the unzipped datapack folder into `. Minecraft / saves / < your archive name > / datapacks`.
 
