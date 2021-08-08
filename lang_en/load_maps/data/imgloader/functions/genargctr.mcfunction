@@ -1,2 +1,2 @@
 setblock ~ ~ ~ minecraft:chest{CustomName:'{"text":"argCtr"}'} keep
-tellraw @p {"translate":"Please put any items in the first slot of the chest, the quantity will be the length of the map, and the quantity in the second slot will be the height of the map. Then stand on the chest and run%s","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}
+tellraw @p {"translate":"请在箱子第一格放入任意物品，数量将作为地图的长度，第二格放入物品，数量将作为地图高度。然后站在箱子上运行%s","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}

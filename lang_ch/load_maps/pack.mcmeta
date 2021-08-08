@@ -1,6 +1,6 @@
 {
     "pack": {
       "pack_format": 6,
-      "description": "循环按编号将地图置于箱子中"
+      "description": "将生成的地图画自动加载到世界中。"
     }
   }
