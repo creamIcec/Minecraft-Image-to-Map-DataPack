@@ -9,6 +9,7 @@ Or another converter for the web version: https://mc-map.djfun.de/ ,GitHub addre
 
 A tutorial on how to use the converter is also on the corresponding page.
 Tip: when converting a picture, you can first view the width and height ratio of the picture, and then set the appropriate width and height, as shown in the following figure:
+
 ![ image]( https://user-images.githubusercontent.com/42510470/128627491-a814d489-e381-47c3-b333-efe2f747ec35.png )
 
 Note: when converting multiple pictures, be sure to remember the starting number of the map corresponding to each picture to prevent confusion.
