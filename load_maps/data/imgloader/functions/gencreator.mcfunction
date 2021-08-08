@@ -1,3 +1,6 @@
+scoreboard objectives remove facing
+scoreboard objectives add facing dummy
+scoreboard players set @e[tag=creator,limit=1,sort=nearest] facing 0
 kill @e[tag=creator,limit=1,sort=nearest]
 kill @e[tag=helper,limit=1,sort=nearest]
 kill @e[tag=helper2,limit=1,sort=nearest]
@@ -12,6 +15,12 @@ execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=45..135] 
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=135..180] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 180 0
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=-179.9..-135] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 180 0
 execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=-135..-45] align xz run tp @e[tag=creator] ~0.5 ~ ~0.5 -90 0
+
+execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=0] run scoreboard players set @e[tag=creator] facing 2
+execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=90] run scoreboard players set @e[tag=creator] facing 5
+execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=180] run scoreboard players set @e[tag=creator] facing 3
+execute at @e[tag=creator,limit=1] if entity @e[tag=creator,y_rotation=270] run scoreboard players set @e[tag=creator] facing 4
+
 execute at @e[tag=helper,limit=1] if entity @e[tag=helper,y_rotation=-45..45] align xz run tp @e[tag=helper] ~0.5 ~ ~0.5 0 0
 execute at @e[tag=helper,limit=1] if entity @e[tag=helper,y_rotation=45..135] align xz run tp @e[tag=helper] ~0.5 ~ ~0.5 90 0
 execute at @e[tag=helper,limit=1] if entity @e[tag=helper,y_rotation=135..180] align xz run tp @e[tag=helper] ~0.5 ~ ~0.5 180 0
