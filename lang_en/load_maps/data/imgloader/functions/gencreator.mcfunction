@@ -25,5 +25,5 @@ execute at @e[tag=helper2,limit=1] if entity @e[tag=helper2,y_rotation=-135..-45
 execute at @e[tag=creator] run setblock ^ ^ ^ stone keep
 execute at @e[tag=creator] run setblock ^ ^ ^1 grass_block keep
 tellraw @p {"translate":"Now run the function %s in another location, where it generates a chest for setting the length and width of the map","with":[{"text": "/function imgloader:genargctr","color": "#FF5C38"},{"text":"/function imgloader:getarg","color": "#FF5C38"}],"insertion":"/function imgloader:genargctr"}
-tellraw @p {"translate": "(If it has been runned successfully or already be placed , function %s can be runned directly on the chest)","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}
+tellraw @p {"translate": "(If it has been runned successfully or already be placed , function %s can be runned directly by standing on the chest)","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}
 tellraw @p "§2At the same time, please replace the grass_block facing the front of the foot of the armor_stand with the block as the background wall."
