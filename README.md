@@ -1,3 +1,5 @@
+# 现在兼容1.18+!
+# Now compatible with 1.18+!
 ## **This is ths description of Chinese, for English version please scroll down.**
 
 # Minecraft 地图画加载器数据包
@@ -28,6 +30,9 @@
 ![image](https://user-images.githubusercontent.com/42510470/128627197-5d226d12-3267-4512-adeb-fc8421bdb038.png)
 
 ### IV.运行/reload加载分步教程
+
+注意：有时在输入/reload后，加载出教程的时间可能较长(但不会超过30秒)，因此请耐心等待。
+
 ![image](https://user-images.githubusercontent.com/42510470/128627652-35984f63-f67f-494d-aab4-40ac67adc7fa.png)
 ### V.运行/function imgloader:help
 ![image](https://user-images.githubusercontent.com/42510470/128627673-a150aab6-7c27-49b0-8b42-8d3d49f95234.png)
@@ -96,6 +101,9 @@ Note: when converting multiple pictures, be sure to remember the starting number
 ### III. enter the world in which the maps has been generated in (you can first confirm that the maps has been placed in the folder, as shown in the following figure (path: `. Minecraft / saves / < your archive name > / data `)).
 ![ image]( https://user-images.githubusercontent.com/42510470/128627197-5d226d12-3267-4512-adeb-fc8421bdb038.png )
 ### IV. run /reload to load the step-by-step tutorial
+
+Note：In some conditions after you typed /reload , it will take moments to load the tutorial(less than 30s), please wait patiently.
+
 ![image](https://user-images.githubusercontent.com/42510470/128629122-12d25453-f2e2-45d2-bd34-3058e734bb84.png)
 ### V. run /function imgloader: help
 ![ image]( https://user-images.githubusercontent.com/42510470/128627673-a150aab6-7c27-49b0-8b42-8d3d49f95234.png )
