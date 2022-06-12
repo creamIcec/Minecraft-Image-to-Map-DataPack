@@ -1,6 +1,7 @@
 scoreboard objectives add ifshowhelp trigger
 scoreboard objectives add ifshowhelper dummy
 scoreboard objectives add initial trigger "initial"
+scoreboard objectives add ifargctrgen dummy
 scoreboard players set @e[tag=creator] initial 0
 scoreboard players enable @p initial
 tellraw @p {"text": "Welcome to the Image to Map Loader datapack!"}
