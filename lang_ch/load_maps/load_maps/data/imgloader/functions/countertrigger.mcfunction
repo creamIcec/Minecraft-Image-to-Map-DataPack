@@ -1,0 +1,1 @@
+execute if score @e[tag=creator,limit=1] counter matches 3..27 run function imgloader:addcount
