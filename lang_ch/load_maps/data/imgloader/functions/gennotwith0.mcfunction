@@ -1,6 +1,6 @@
 tellraw @p "§3当前运行:手动设置地图起始编号模式"
-tellraw @p {"translate":"§2请输入%s再运行此函数。","with":[{"text":"/trigger initial set <要放置的地图起始编号>","color":"#FF5C38"}],"insertion": "/trigger initial set <要放置的地图起始编号>"}
-tellraw @p "§3如已执行上述命令,可忽略上述信息。"
+#tellraw @p {"translate":"§2请输入%s再运行此函数。","with":[{"text":"/trigger initial set <要放置的地图起始编号>","color":"#FF5C38"}],"insertion": "/trigger initial set <要放置的地图起始编号>"}
+# tellraw @p "§3如已执行前述命令,可忽略上述信息。"
 scoreboard players add @e[tag=creator] line 0
 scoreboard players add @e[tag=creator] row 0
 scoreboard objectives add checkif0 dummy "checkif0"

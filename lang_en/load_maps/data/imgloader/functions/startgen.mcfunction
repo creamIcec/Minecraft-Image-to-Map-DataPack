@@ -1,0 +1,3 @@
+tellraw @p {"translate":"§3 Now enter %s to start rendering with a default map number of 0.","with":[{"text":"/function imgloader:gen","color":"#FF5C38"}],"insertion":"/function imgloader:gen"}
+tellraw @p {"translate":"Or enter %s to start rendering with your customized initial map number.","with":[{"text": "/function imgloader:gennotwith0","color":"#FF5C38"}],"insertion":"/function imgloader:gennotwith0"}
+tellraw @p {"translate":"Note: after generating the 'Map Creator', you can run %s at any time by standing on the chest.","with":[{"text":"/function imgloader:getarg","color":"#FF5C38"}],"insertion":"/function imgloader:getarg"}
